@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA71FE4C23BC409C00EFB1CD /* AXHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA71FE4B23BC409C00EFB1CD /* AXHomeCell.m */; };
+		BA71FE4F23BC44C900EFB1CD /* AXHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA71FE4E23BC44C900EFB1CD /* AXHomeModel.m */; };
+		BA71FE5223BC4F3100EFB1CD /* AXHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA71FE5123BC4F3100EFB1CD /* AXHomeHeaderView.m */; };
+		BA71FE5423BC4F4700EFB1CD /* AXHomeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA71FE5323BC4F4700EFB1CD /* AXHomeHeaderView.xib */; };
+		BA71FE5623BC5F7700EFB1CD /* shiju.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA71FE5523BC5F7700EFB1CD /* shiju.plist */; };
 		BA878A5923BC3519007262FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA878A5823BC3519007262FB /* AppDelegate.m */; };
 		BA878A5C23BC3519007262FB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA878A5B23BC3519007262FB /* SceneDelegate.m */; };
 		BA878A5F23BC3519007262FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA878A5E23BC3519007262FB /* ViewController.m */; };
@@ -17,7 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA878A5423BC3519007262FB /* AXTimeConcept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXTimeConcept.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA71FE4A23BC409C00EFB1CD /* AXHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AXHomeCell.h; sourceTree = "<group>"; };
+		BA71FE4B23BC409C00EFB1CD /* AXHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXHomeCell.m; sourceTree = "<group>"; };
+		BA71FE4D23BC44C900EFB1CD /* AXHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AXHomeModel.h; sourceTree = "<group>"; };
+		BA71FE4E23BC44C900EFB1CD /* AXHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXHomeModel.m; sourceTree = "<group>"; };
+		BA71FE5023BC4F3100EFB1CD /* AXHomeHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AXHomeHeaderView.h; sourceTree = "<group>"; };
+		BA71FE5123BC4F3100EFB1CD /* AXHomeHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXHomeHeaderView.m; sourceTree = "<group>"; };
+		BA71FE5323BC4F4700EFB1CD /* AXHomeHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AXHomeHeaderView.xib; sourceTree = "<group>"; };
+		BA71FE5523BC5F7700EFB1CD /* shiju.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = shiju.plist; sourceTree = "<group>"; };
+		BA878A5423BC3519007262FB /* 阿星.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "阿星.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA878A5723BC3519007262FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA878A5823BC3519007262FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BA878A5A23BC3519007262FB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +55,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA71FE4923BC405000EFB1CD /* AXHomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				BA878A5D23BC3519007262FB /* ViewController.h */,
+				BA878A5E23BC3519007262FB /* ViewController.m */,
+				BA71FE4A23BC409C00EFB1CD /* AXHomeCell.h */,
+				BA71FE4B23BC409C00EFB1CD /* AXHomeCell.m */,
+				BA71FE4D23BC44C900EFB1CD /* AXHomeModel.h */,
+				BA71FE4E23BC44C900EFB1CD /* AXHomeModel.m */,
+				BA71FE5023BC4F3100EFB1CD /* AXHomeHeaderView.h */,
+				BA71FE5123BC4F3100EFB1CD /* AXHomeHeaderView.m */,
+				BA71FE5323BC4F4700EFB1CD /* AXHomeHeaderView.xib */,
+			);
+			path = AXHomeScene;
+			sourceTree = "<group>";
+		};
 		BA878A4B23BC3519007262FB = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +82,7 @@
 		BA878A5523BC3519007262FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA878A5423BC3519007262FB /* AXTimeConcept.app */,
+				BA878A5423BC3519007262FB /* 阿星.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,8 +94,8 @@
 				BA878A5823BC3519007262FB /* AppDelegate.m */,
 				BA878A5A23BC3519007262FB /* SceneDelegate.h */,
 				BA878A5B23BC3519007262FB /* SceneDelegate.m */,
-				BA878A5D23BC3519007262FB /* ViewController.h */,
-				BA878A5E23BC3519007262FB /* ViewController.m */,
+				BA71FE5523BC5F7700EFB1CD /* shiju.plist */,
+				BA71FE4923BC405000EFB1CD /* AXHomeScene */,
 				BA878A6023BC3519007262FB /* Main.storyboard */,
 				BA878A6323BC351C007262FB /* Assets.xcassets */,
 				BA878A6523BC351C007262FB /* LaunchScreen.storyboard */,
@@ -93,7 +122,7 @@
 			);
 			name = AXTimeConcept;
 			productName = AXTimeConcept;
-			productReference = BA878A5423BC3519007262FB /* AXTimeConcept.app */;
+			productReference = BA878A5423BC3519007262FB /* 阿星.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,6 +131,7 @@
 		BA878A4C23BC3519007262FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AX;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = xiaoming;
 				TargetAttributes = {
@@ -136,6 +166,8 @@
 				BA878A6723BC351C007262FB /* LaunchScreen.storyboard in Resources */,
 				BA878A6423BC351C007262FB /* Assets.xcassets in Resources */,
 				BA878A6223BC3519007262FB /* Main.storyboard in Resources */,
+				BA71FE5423BC4F4700EFB1CD /* AXHomeHeaderView.xib in Resources */,
+				BA71FE5623BC5F7700EFB1CD /* shiju.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +179,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA878A5F23BC3519007262FB /* ViewController.m in Sources */,
+				BA71FE4F23BC44C900EFB1CD /* AXHomeModel.m in Sources */,
+				BA71FE4C23BC409C00EFB1CD /* AXHomeCell.m in Sources */,
+				BA71FE5223BC4F3100EFB1CD /* AXHomeHeaderView.m in Sources */,
 				BA878A5923BC3519007262FB /* AppDelegate.m in Sources */,
 				BA878A6A23BC351C007262FB /* main.m in Sources */,
 				BA878A5C23BC3519007262FB /* SceneDelegate.m in Sources */,
@@ -225,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,14 +324,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = QXFW36UK36;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AXTimeConcept/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoming.AXTimeConcept;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "阿星";
+				PROVISIONING_PROFILE_SPECIFIER = timeconcept_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,14 +346,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = QXFW36UK36;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AXTimeConcept/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoming.AXTimeConcept;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "阿星";
+				PROVISIONING_PROFILE_SPECIFIER = timeconcept_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
